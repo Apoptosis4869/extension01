@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "namename",
+    "short_name": "shortN",
+    "description": "This extension will work someday I hope so",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "128": "icons/128.png",
+      "48": "icons/48.png",
+      "32": "icons/32.png",
+      "16": "icons/16.png"
+    },
+    "permissions": [ "contextMenus", "tabs", "activeTab" ],
+    "version": "1.3"
+  }
